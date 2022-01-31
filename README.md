@@ -13,3 +13,4 @@ These are some tutorials that I did find useful (in retrospect, not just at the
 time).
 
 * [Angular hero tutorial](https://angular.io/tutorial)
+    - Of course some of their [reference manuals](https://angular.io/guide/observables)
