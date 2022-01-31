@@ -11,8 +11,8 @@ export class HelloService {
 
   constructor( private http: HttpClient,) { }
 
-  getHello(): Observable<string> {
-    return this.http.get<string>(this.url);
+  getHello(): Observable<Object> {
+    return this.http.get<Object>(this.url);
   }
 
 }

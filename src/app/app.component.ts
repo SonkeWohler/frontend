@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { HelloService } from '../hello.service';
 
+interface MessageObject {
+  message: string,
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -24,7 +28,10 @@ export class AppComponent implements OnInit {
     // got it from here
     // https://angular.io/guide/observables
     this.helloService.getHello().subscribe(
-      message => this.hello_string = message,
+      message => {
+        let object: MessageObject = JSON.parse(JSON.stringify(message));
+        this.hello_string = object.message;
+      },
       err =>  {
         this.hello_string = "the server can't seem to hear you";
         console.log("Failure retrieving from server: " + err);
