@@ -12,4 +12,4 @@ tutorials.
 These are some tutorials that I did find useful (in retrospect, not just at the
 time).
 
-* [Angular official docs](https://angular.io/docs)
+* [Angular hero tutorial](https://angular.io/tutorial)
