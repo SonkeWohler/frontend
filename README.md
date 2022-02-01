@@ -14,3 +14,7 @@ time).
 
 * [Angular hero tutorial](https://angular.io/tutorial)
     - Of course some of their [reference manuals](https://angular.io/guide/observables)
+* [Dockerising Angular using nginx](https://malcoded.com/posts/angular-docker/), as this had an unexpected twist
+    - here I would like to research whether the best practice might be to tie
+      this into the `docker-compose.yaml` instead [as some seem to
+      do](https://markfknight.dev/posts/angular-in-docker/)
