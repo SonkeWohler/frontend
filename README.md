@@ -1,6 +1,8 @@
-# Front
+# Angular Hello World
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+
+It is part of a [docker hello world](https://github.com/SonkeWohler/docker_yaml) I am doing.
 
 ## Tutorials Used
 
